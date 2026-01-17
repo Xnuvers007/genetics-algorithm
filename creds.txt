@@ -1,0 +1,3 @@
+Admin: admin@smpbu.sch.id / password
+Teacher: budi@smpbu.sch.id / password
+Student: ahmad.rizki@student.smpbu.sch.id / password
