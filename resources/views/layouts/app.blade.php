@@ -67,7 +67,7 @@
              x-transition:leave-start="opacity-100"
              x-transition:leave-end="opacity-0"
              @click="mobileMenuOpen = false"
-             class="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+             class="fixed h-full inset-0 bg-opacity-50 z-40 md:hidden"
              style="display: none;"></div>
         
         <!-- Sidebar - Desktop (always visible) -->
@@ -158,7 +158,7 @@
                x-transition:leave="transition ease-in duration-300"
                x-transition:leave-start="translate-x-0"
                x-transition:leave-end="-translate-x-full"
-               class="fixed inset-y-0 left-0 z-50 md:hidden"
+               class="fixed h-full inset-y-0 left-0 z-50 md:hidden"
                style="display: none;">
             <div class="flex flex-col w-64 h-full bg-gradient-to-b from-emerald-700 to-emerald-900 shadow-xl">
                 <!-- Logo with Close Button -->
