@@ -4,7 +4,7 @@ return [
     'name' => 'LaravelPWA',
     'manifest' => [
         'name' => env('APP_NAME', 'SMP Islam Bahrul Ulum - Monitoring Siswa'),
-        'short_name' => 'SMP BU Monitor',
+        'short_name' => 'SMP Bahrul Ulum Monitor',
         'start_url' => '/',
         'background_color' => '#ffffff',
         'theme_color' => '#059669',

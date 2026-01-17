@@ -163,7 +163,7 @@
             <a href="{{ route('classes.show', $class) }}" class="group block p-5 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-blue-300 hover:shadow-lg transition-all duration-300">
                 <div class="flex items-center gap-4">
                     <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                        <span class="text-white font-bold text-lg">{{ $class->grade_level ?? '?' }}</span>
+                        <span class="text-black font-bold text-lg">{{ $class->grade_level ?? '?' }}</span>
                     </div>
                     <div>
                         <h4 class="font-bold text-gray-800 group-hover:text-blue-600 transition-colors">{{ $class->name }}</h4>

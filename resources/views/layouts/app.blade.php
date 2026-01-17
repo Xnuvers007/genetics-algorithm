@@ -13,11 +13,11 @@
     <link rel="manifest" href="{{ asset('manifest.json') }}">
     <link rel="apple-touch-icon" href="{{ asset('images/icons/icon-192x192.png') }}">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="SMP BU Monitor">
+    <meta name="application-name" content="SMP Bahrul Ulum Monitor">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="SMP BU Monitor">
+    <meta name="apple-mobile-web-app-title" content="SMP Bahrul Ulum Monitor">
     <link rel="apple-touch-icon" href="/images/icons/icon-512x512.png">
 
     <link href="/images/icons/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
@@ -76,7 +76,7 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-center h-20 bg-emerald-800 px-4">
                     <a href="{{ route('dashboard') }}" class="text-2xl font-bold text-white">
-                    <h1 class="text-2xl font-bold text-white">SMP BU</h1>
+                    <h1 class="text-2xl font-bold text-white">SMP Bahrul Ulum</h1>
                     </a>
                 </div>
 
@@ -163,7 +163,7 @@
             <div class="flex flex-col w-64 h-full bg-gradient-to-b from-emerald-700 to-emerald-900 shadow-xl">
                 <!-- Logo with Close Button -->
                 <div class="flex items-center justify-between h-20 bg-emerald-800 px-4">
-                    <h1 class="text-2xl font-bold text-white">SMP BU</h1>
+                    <h1 class="text-2xl font-bold text-white">SMP Bahrul Ulum</h1>
                     <button @click="mobileMenuOpen = false" class="text-white hover:text-gray-200 p-1">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -247,7 +247,7 @@
             <header class="bg-white shadow-sm md:hidden z-30">
                 <div class="flex items-center justify-between px-4 py-4">
                     <a href="{{ route('dashboard') }}" class="text-lg font-semibold text-gray-800">
-                    <h1 class="text-xl font-bold text-gray-800">SMP BU</h1>
+                    <h1 class="text-xl font-bold text-gray-800">SMP Bahrul Ulum</h1>
                     </a>
                     <button @click="mobileMenuOpen = !mobileMenuOpen" class="text-gray-600 hover:text-gray-800 focus:outline-none">
                         <svg x-show="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

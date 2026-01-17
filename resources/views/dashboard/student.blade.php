@@ -27,11 +27,12 @@
             </div>
             @if($ga_result)
             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
-                <p class="text-emerald-100 text-sm">Klasifikasi Saat Ini</p>
-                <p class="text-3xl font-bold mt-1">{{ $ga_result->classification }}</p>
-                <p class="text-emerald-100 text-sm mt-1">Skor: {{ number_format($ga_result->weighted_score, 1) }}/100</p>
+                <p class="text-emerald-100 text-sm text-black">Klasifikasi Saat Ini</p>
+                <p class="text-3xl font-bold mt-1 text-black">{{ $ga_result->classification }}</p>
+                <p class="text-emerald-100 text-sm mt-1 text-black">Skor: {{ number_format($ga_result->weighted_score, 1) }}/100</p>
             </div>
             @endif
+            <br />
         </div>
         <div class="absolute right-8 bottom-0 opacity-10">
             <svg class="w-64 h-64" fill="currentColor" viewBox="0 0 24 24">
@@ -250,7 +251,7 @@
                         @endif
                     </div>
                     <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                        <span class="text-white font-bold">{{ $record->score }}</span>
+                        <span class="text-black font-bold">{{ $record->score }}</span>
                     </div>
                 </div>
             </div>
